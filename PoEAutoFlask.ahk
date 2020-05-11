@@ -1,13 +1,3 @@
-;----------------------------------------------------------------------
-; PoE Flasks macro for AutoHotKey
-;
-; Keys used and monitored:
-; alt+f12 - activate automatic flask usage
-; right mouse button - primary attack skills
-; 1-5 - number keys to manually use a specific flask
-; ` (backtick) - use all flasks, now
-;
-
 #IfWinActive Path of Exile
 #SingleInstance force
 #NoEnv  
@@ -16,11 +6,6 @@
 
 UseFlasks := false
 
-;----------------------------------------------------------------------
-; Main program loop - basics are that we use flasks whenever flask
-; usage is enabled via hotkey (default is F12), and we've attacked
-; within the last 0.5 second (or are channeling/continuous attacking.
-;----------------------------------------------------------------------
 !F12::
 	UseFlasks := not UseFlasks
 	if UseFlasks {
@@ -35,10 +20,7 @@ UseFlasks := false
 RemoveToolTip:
 ToolTip
 return
-;----------------------------------------------------------------------
-; Use all flasks, now.  A variable delay is included between flasks
-; NOTE: this will use all flasks, even those with a FlaskDurationInit of 0
-;----------------------------------------------------------------------
+
 ~e::
 	if UseFlasks {
 		Send 2
