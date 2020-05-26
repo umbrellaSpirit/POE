@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="92" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="3" viewMode="ITEMS" banditCruel="None">
-		<PlayerStat stat="AverageDamage" value="119651.12583109"/>
-		<PlayerStat stat="Speed" value="3.6575"/>
-		<PlayerStat stat="Speed" value="3.6575"/>
+	<Build level="92" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="3" viewMode="TREE" banditCruel="None">
+		<PlayerStat stat="AverageDamage" value="110586.716858"/>
+		<PlayerStat stat="Speed" value="3.6025"/>
+		<PlayerStat stat="Speed" value="3.6025"/>
 		<PlayerStat stat="PreEffectiveCritChance" value="74.4477"/>
 		<PlayerStat stat="CritChance" value="93.4707996471"/>
 		<PlayerStat stat="CritMultiplier" value="4.33"/>
 		<PlayerStat stat="HitChance" value="100"/>
-		<PlayerStat stat="TotalDPS" value="5251487.9127265"/>
+		<PlayerStat stat="TotalDPS" value="4780663.7697712"/>
 		<PlayerStat stat="TotalDot" value="0"/>
-		<PlayerStat stat="WithPoisonDPS" value="5251487.9127265"/>
+		<PlayerStat stat="WithPoisonDPS" value="4780663.7697712"/>
 		<PlayerStat stat="ManaCost" value="27"/>
-		<PlayerStat stat="Str" value="104"/>
+		<PlayerStat stat="Str" value="134"/>
 		<PlayerStat stat="ReqStr" value="114"/>
 		<PlayerStat stat="Dex" value="436"/>
 		<PlayerStat stat="ReqDex" value="212"/>
-		<PlayerStat stat="Int" value="54"/>
+		<PlayerStat stat="Int" value="84"/>
 		<PlayerStat stat="ReqInt" value="76"/>
-		<PlayerStat stat="Life" value="4402"/>
+		<PlayerStat stat="Life" value="4441"/>
 		<PlayerStat stat="Spec:LifeInc" value="145"/>
-		<PlayerStat stat="LifeUnreserved" value="4402"/>
+		<PlayerStat stat="LifeUnreserved" value="4441"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="202.492"/>
-		<PlayerStat stat="LifeLeechGainRate" value="880.4"/>
-		<PlayerStat stat="Mana" value="650"/>
+		<PlayerStat stat="LifeRegen" value="204.286"/>
+		<PlayerStat stat="LifeLeechGainRate" value="888.2"/>
+		<PlayerStat stat="Mana" value="666"/>
 		<PlayerStat stat="Spec:ManaInc" value="0"/>
-		<PlayerStat stat="ManaUnreserved" value="139"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="21.384615384615"/>
-		<PlayerStat stat="ManaRegen" value="16.4"/>
-		<PlayerStat stat="ManaLeechGainRate" value="130"/>
+		<PlayerStat stat="ManaUnreserved" value="144"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="21.621621621622"/>
+		<PlayerStat stat="ManaRegen" value="16.7"/>
+		<PlayerStat stat="ManaLeechGainRate" value="133.2"/>
 		<PlayerStat stat="EnergyShield" value="0"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="0"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
@@ -130,14 +130,14 @@
 		<Skill source="Item:20:Demon Whorl, Diamond Ring" mainActiveSkillCalcs="1" label="" enabled="true" slot="Ring 1" mainActiveSkill="1">
 			<Gem enableGlobal2="false" quality="0" level="12" gemId="Metadata/Items/Gems/SkillGemCriticalWeakness" skillId="AssassinsMark" enableGlobal1="true" enabled="true" nameSpec="Assassin&apos;s Mark"/>
 		</Skill>
-		<Skill source="Item:24:Mark of the Elder, Steel Ring" mainActiveSkillCalcs="nil" label="" enabled="true" slot="Ring 2" mainActiveSkill="nil">
-			<Gem enableGlobal2="nil" quality="0" level="20" skillId="TentacleSmash" enableGlobal1="true" enabled="true" nameSpec=""/>
+		<Skill source="Item:24:Mark of the Elder, Steel Ring" mainActiveSkillCalcs="1" label="" enabled="true" slot="Ring 2" mainActiveSkill="1">
+			<Gem enableGlobal2="false" quality="0" level="20" skillId="TentacleSmash" enableGlobal1="true" enabled="true" nameSpec="Tentacle Whip"/>
 		</Skill>
 	</Skills>
 	<Tree activeSpec="1">
-		<Spec ascendClassId="2" nodes="22266,32117,23471,66643,5237,36281,40132,48614,55750,11678,36221,27656,5082,60803,56295,4011,42178,14292,41119,47030,8458,53086,1325,2185,24848,27788,64878,9877,49900,30969,66640,62136,38149,17201,14914,6542,32477,45313,65502,48438,12948,17171,12401,35283,23066,59220,20010,33196,16079,19858,61306,60942,65632,5823,30155,54142,35894,30455,32514,9206,94,14804,50459,61834,39665,48807,56001,29933,3314,66649,36287,23912,12794,12412,36222,20807,40362,25260,58854,60735,26528,43385,34678,36912,59837,51420,39821,58474,58271,13202,42443,46393,13885,32555,61627,28754,25058,19320,54307,56744,2094,57199,22994,19711,21835,46882,65634,9469,51881,30679,1461,5443,46277,49971,65642,61327,65210,49459,51404,56856,28012,19069,25933" treeVersion="3_10" classId="2">
+		<Spec ascendClassId="2" nodes="22266,32117,23471,66643,5237,36281,40132,48614,55750,36874,36221,27656,5082,65639,56295,4011,42178,14292,64878,47030,15027,65642,94,2185,24848,27788,65634,22994,46393,30969,28012,62136,46882,9877,39665,14914,65632,32477,66640,1325,48438,41119,65210,56856,49900,23066,35283,5823,33196,16079,19858,61327,60942,49971,46277,30155,5443,35894,38149,32514,9206,6542,14804,50459,61834,59220,48807,56001,66649,21835,23912,3314,12412,36222,57199,40362,2094,58854,60735,26528,43385,56744,59837,54307,39821,58474,60803,51420,58271,13885,32555,42443,61627,28754,25058,19320,34678,25260,20807,12794,36287,19711,29933,30455,54142,9469,51881,30679,1461,20010,12401,12948,65502,45313,61306,49459,51404,17201,53086,19069,25933" treeVersion="3_10" classId="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXVbrxR1jbmcxL3m2cYtno19bAgT2u2D2-cPq6TCN9Sgn7e2IQrPXgUtCIlhEGyM_W4mlcLsePnyuJUFQzE6QhmOft2xAf_evTYylEMTMHGJ01oa51ROKoGsPs9Nku967g4Wv3XL036MNnb3fwIj9gBeOdTxiprxvqfawXTtDPKNv11oMfowfI1-UUedqmKs5ebtP2egqXmHdpAw6b3I3JuN5GrjnzOSpcu1OTY9fyvwu3BSYeJLeNQj3agILt9vWdJM_1VLtyIk_cqpd9cFtRVDtMXDM--P_rrBM8jMbWxKfWVN
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXVbrxR1jbmcxL3m2caQCo19bAgT2tvnD6ukwjfU_W63tjqzAF4IiWEQbIxZ0rU5ePltbPK4tyImlZrxOkJ-3QUtvTagn_66wuxaGonTFr-BrD7PTZLvj-4OwzO0xXXLFUOMNpUFfwIj9hmOOdTxiudUvqfawVVLXWgM8jB8jX7fb52qCC7l5u0_Z6Cped2o6b3UI5uN5Grtg8jc4582PX8rpcvwu3BSYeJLeId2YqxRRzH6jb9M_3TtdvfTfiT9yql31wW1TiowcTKU_96xAe96wTPIzEMxz15KfWVN
 			</URL>
 			<Sockets>
 				<Socket nodeId="16218" itemId="0"/>
@@ -151,59 +151,59 @@
 				<Socket nodeId="36634" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="33753" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33753" itemId="0"/>
+				<Socket nodeId="60735" itemId="8"/>
+				<Socket nodeId="64583" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="12613" itemId="0"/>
-				<Socket nodeId="22994" itemId="4"/>
-				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="10532" itemId="0"/>
 				<Socket nodeId="46519" itemId="0"/>
 				<Socket nodeId="40400" itemId="0"/>
-				<Socket nodeId="60735" itemId="8"/>
+				<Socket nodeId="61305" itemId="0"/>
 				<Socket nodeId="3109" itemId="0"/>
-				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="49080" itemId="0"/>
 				<Socket nodeId="46393" itemId="10"/>
 				<Socket nodeId="23756" itemId="0"/>
 				<Socket nodeId="59585" itemId="0"/>
-				<Socket nodeId="14993" itemId="0"/>
-				<Socket nodeId="12161" itemId="0"/>
-				<Socket nodeId="9797" itemId="0"/>
 				<Socket nodeId="32763" itemId="7"/>
+				<Socket nodeId="41876" itemId="0"/>
+				<Socket nodeId="9797" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 				<Socket nodeId="26196" itemId="0"/>
 				<Socket nodeId="29712" itemId="0"/>
 				<Socket nodeId="61288" itemId="0"/>
-				<Socket nodeId="18436" itemId="0"/>
+				<Socket nodeId="46882" itemId="9"/>
 				<Socket nodeId="33989" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="8"/>
 				<Socket nodeId="17219" itemId="0"/>
 				<Socket nodeId="23984" itemId="0"/>
-				<Socket nodeId="61666" itemId="0"/>
-				<Socket nodeId="44169" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="28475" itemId="0"/>
 				<Socket nodeId="22748" itemId="0"/>
-				<Socket nodeId="54127" itemId="8"/>
-				<Socket nodeId="46882" itemId="9"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="61666" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="44169" itemId="0"/>
+				<Socket nodeId="18436" itemId="0"/>
 				<Socket nodeId="49684" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="41876" itemId="0"/>
-				<Socket nodeId="49080" itemId="0"/>
-				<Socket nodeId="61305" itemId="0"/>
-				<Socket nodeId="10532" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="12161" itemId="0"/>
+				<Socket nodeId="22994" itemId="4"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="13170" itemId="0"/>
+				<Socket nodeId="12613" itemId="0"/>
 				<Socket nodeId="36931" itemId="0"/>
 				<Socket nodeId="6910" itemId="0"/>
-				<Socket nodeId="64583" itemId="0"/>
+				<Socket nodeId="14993" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="hollow" zoomY="466.73668025432" showHeatMap="false" zoomLevel="7" showStatDifferences="true" zoomX="13.002810778598"/>
+	<TreeView searchStr="hollow" zoomY="-855.94089919424" showHeatMap="false" zoomLevel="7" showStatDifferences="true" zoomX="-1187.3544561268"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="4">
 			Rarity: RARE
@@ -673,26 +673,26 @@ Corrupted
 	<Config>
 		<Input name="conditionLeeching" boolean="true"/>
 		<Input name="conditionCritRecently" boolean="true"/>
+		<Input name="enemyIsBoss" string="NONE"/>
+		<Input name="critChanceLucky" boolean="true"/>
 		<Input name="conditionUsingFlask" boolean="true"/>
+		<Input name="detonateDeadCorpseLife" number="0"/>
 		<Input name="overrideFrenzyCharges" number="6"/>
 		<Input name="conditionKilledRecently" boolean="true"/>
 		<Input name="useInspirationCharges" boolean="true"/>
+		<Input name="conditionEnemyUnnerved" boolean="true"/>
+		<Input name="multiplierSkillUsedRecently" number="0"/>
 		<Input name="multiplierPoisonOnEnemy" number="0"/>
 		<Input name="useFrenzyCharges" boolean="true"/>
 		<Input name="conditionEnemyChilled" boolean="true"/>
+		<Input name="conditionUsedSkillRecently" boolean="true"/>
 		<Input name="conditionEnemyFrozen" boolean="true"/>
 		<Input name="projectileDistance" number="5"/>
 		<Input name="buffOnslaught" boolean="true"/>
-		<Input name="buffTailwind" boolean="true"/>
-		<Input name="enemyIsBoss" string="NONE"/>
-		<Input name="critChanceLucky" boolean="true"/>
-		<Input name="detonateDeadCorpseLife" number="0"/>
-		<Input name="overrideInspirationCharges" number="5"/>
-		<Input name="conditionEnemyUnnerved" boolean="true"/>
-		<Input name="multiplierSkillUsedRecently" number="0"/>
 		<Input name="usePowerCharges" boolean="true"/>
-		<Input name="conditionUsedSkillRecently" boolean="true"/>
-		<Input name="conditionEnemyIntimidated" boolean="true"/>
 		<Input name="overridePowerCharges" number="3"/>
+		<Input name="conditionEnemyIntimidated" boolean="true"/>
+		<Input name="overrideInspirationCharges" number="5"/>
+		<Input name="buffTailwind" boolean="true"/>
 	</Config>
 </PathOfBuilding>
