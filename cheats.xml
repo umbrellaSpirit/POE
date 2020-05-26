@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="92" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="3" viewMode="TREE" banditCruel="None">
+	<Build level="90" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="3" viewMode="ITEMS" banditCruel="None">
 		<PlayerStat stat="AverageDamage" value="110586.716858"/>
 		<PlayerStat stat="Speed" value="3.6025"/>
 		<PlayerStat stat="Speed" value="3.6025"/>
@@ -18,27 +18,27 @@
 		<PlayerStat stat="ReqDex" value="212"/>
 		<PlayerStat stat="Int" value="84"/>
 		<PlayerStat stat="ReqInt" value="76"/>
-		<PlayerStat stat="Life" value="4441"/>
+		<PlayerStat stat="Life" value="4378"/>
 		<PlayerStat stat="Spec:LifeInc" value="145"/>
-		<PlayerStat stat="LifeUnreserved" value="4441"/>
+		<PlayerStat stat="LifeUnreserved" value="4378"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="204.286"/>
-		<PlayerStat stat="LifeLeechGainRate" value="888.2"/>
-		<PlayerStat stat="Mana" value="666"/>
+		<PlayerStat stat="LifeRegen" value="201.388"/>
+		<PlayerStat stat="LifeLeechGainRate" value="875.6"/>
+		<PlayerStat stat="Mana" value="653"/>
 		<PlayerStat stat="Spec:ManaInc" value="0"/>
-		<PlayerStat stat="ManaUnreserved" value="144"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="21.621621621622"/>
-		<PlayerStat stat="ManaRegen" value="16.7"/>
-		<PlayerStat stat="ManaLeechGainRate" value="133.2"/>
+		<PlayerStat stat="ManaUnreserved" value="140"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="21.439509954058"/>
+		<PlayerStat stat="ManaRegen" value="16.4"/>
+		<PlayerStat stat="ManaLeechGainRate" value="130.6"/>
 		<PlayerStat stat="EnergyShield" value="0"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="0"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
-		<PlayerStat stat="Evasion" value="21491"/>
-		<PlayerStat stat="Spec:EvasionInc" value="126"/>
-		<PlayerStat stat="MeleeEvadeChance" value="59"/>
-		<PlayerStat stat="MeleeEvadeChance" value="59"/>
-		<PlayerStat stat="ProjectileEvadeChance" value="59"/>
+		<PlayerStat stat="Evasion" value="23347"/>
+		<PlayerStat stat="Spec:EvasionInc" value="162"/>
+		<PlayerStat stat="MeleeEvadeChance" value="64"/>
+		<PlayerStat stat="MeleeEvadeChance" value="64"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="64"/>
 		<PlayerStat stat="Armour" value="0"/>
 		<PlayerStat stat="Spec:ArmourInc" value="24"/>
 		<PlayerStat stat="PhysicalDamageReduction" value="0"/>
@@ -48,12 +48,12 @@
 		<PlayerStat stat="AttackDodgeChance" value="50"/>
 		<PlayerStat stat="SpellDodgeChance" value="40"/>
 		<PlayerStat stat="FireResist" value="75"/>
-		<PlayerStat stat="ColdResist" value="75"/>
-		<PlayerStat stat="LightningResist" value="67"/>
+		<PlayerStat stat="ColdResist" value="76"/>
+		<PlayerStat stat="LightningResist" value="75"/>
 		<PlayerStat stat="ChaosResist" value="-25"/>
-		<PlayerStat stat="FireResistOverCap" value="47"/>
-		<PlayerStat stat="ColdResistOverCap" value="68"/>
-		<PlayerStat stat="LightningResistOverCap" value="0"/>
+		<PlayerStat stat="FireResistOverCap" value="58"/>
+		<PlayerStat stat="ColdResistOverCap" value="78"/>
+		<PlayerStat stat="LightningResistOverCap" value="3"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
 		<PlayerStat stat="PowerCharges" value="3"/>
 		<PlayerStat stat="PowerChargesMax" value="3"/>
@@ -135,9 +135,9 @@
 		</Skill>
 	</Skills>
 	<Tree activeSpec="1">
-		<Spec ascendClassId="2" nodes="22266,32117,23471,66643,5237,36281,40132,48614,55750,36874,36221,27656,5082,65639,56295,4011,42178,14292,64878,47030,15027,65642,94,2185,24848,27788,65634,22994,46393,30969,28012,62136,46882,9877,39665,14914,65632,32477,66640,1325,48438,41119,65210,56856,49900,23066,35283,5823,33196,16079,19858,61327,60942,49971,46277,30155,5443,35894,38149,32514,9206,6542,14804,50459,61834,59220,48807,56001,66649,21835,23912,3314,12412,36222,57199,40362,2094,58854,60735,26528,43385,56744,59837,54307,39821,58474,60803,51420,58271,13885,32555,42443,61627,28754,25058,19320,34678,25260,20807,12794,36287,19711,29933,30455,54142,9469,51881,30679,1461,20010,12401,12948,65502,45313,61306,49459,51404,17201,53086,19069,25933" treeVersion="3_10" classId="2">
+		<Spec ascendClassId="2" nodes="22266,32117,23471,66643,5237,36281,40132,48614,55750,36874,36221,27656,5082,56295,4011,42178,14292,65639,47030,94,2185,24848,27788,25260,24133,64878,30969,28012,62136,22994,9877,39665,14914,53086,32477,17201,41119,48438,65210,61306,65632,45313,65502,23066,35283,12948,33196,15027,19858,12401,60942,20010,5823,30155,16079,35894,5443,32514,9206,38149,14804,50459,61834,54142,48807,56001,30455,3314,66649,29933,23912,59220,12412,36222,36287,40362,12794,58854,60735,26528,43385,20807,64235,59837,34678,39821,58474,60803,51420,58271,13885,46393,42443,32555,61627,28754,25058,19320,54307,56744,2094,57199,21835,19711,6542,46882,65634,9469,51881,30679,1461,49900,46277,49971,65642,61327,56856,49459,51404,1325,66640,19069,25933" treeVersion="3_10" classId="2">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXVbrxR1jbmcxL3m2caQCo19bAgT2tvnD6ukwjfU_W63tjqzAF4IiWEQbIxZ0rU5ePltbPK4tyImlZrxOkJ-3QUtvTagn_66wuxaGonTFr-BrD7PTZLvj-4OwzO0xXXLFUOMNpUFfwIj9hmOOdTxiudUvqfawVVLXWgM8jB8jX7fb52qCC7l5u0_Z6Cped2o6b3UI5uN5Grtg8jc4582PX8rpcvwu3BSYeJLeId2YqxRRzH6jb9M_3TtdvfTfiT9yql31wW1TiowcTKU_96xAe96wTPIzEMxz15KfWVN
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXVbrxR1jbmcxL3m2caQCo19bAgT2tvnD6ukwjfUt7YAXgiJYRBsjGKsXkX9bnj5bWzyuFnSJpWa8TpCz15-3UMxoJ-9Nv6673qxAf_eWhqJ0zKUgaw6s02SMHHuDk4qFr91yz7PjDYVQ38CI_aVBTnU8YrTfr6n2sF29wzydO1daOdUMHyNfo2_naox-uXm7T9noKl5UUf66-m9h3abjeRq7YPI3OOfNj21OaXLfyvwu3BSYeJLeNQj3agILt9vVUtM_xmOtyIk_cqpd9cFtcLstMXDM--PwTPIzAUtSn1lTQ==
 			</URL>
 			<Sockets>
 				<Socket nodeId="16218" itemId="0"/>
@@ -203,7 +203,7 @@
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="hollow" zoomY="-855.94089919424" showHeatMap="false" zoomLevel="7" showStatDifferences="true" zoomX="-1187.3544561268"/>
+	<TreeView searchStr="resistance" zoomY="-402.4052072877" showHeatMap="false" zoomLevel="9" showStatDifferences="true" zoomX="-2226.3235298679"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="4">
 			Rarity: RARE
